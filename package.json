@@ -1,0 +1,26 @@
+{
+  "name": "thelounge-theme-mcdiscord",
+  "version": "1.0.0",
+  "main": "package.json",
+  "license": "MIT",
+  "keywords": ["thelounge", "thelounge-theme"],
+  "thelounge": {
+    "css": "mcdiscord.css",
+    "name": "mcDiscord",
+    "type": "theme",
+    "files": [
+      "ggsans-bold.woff2",
+      "ggsans-bolditalic.woff2",
+      "ggsans-extrabold.woff2",
+      "ggsans-extrabolditalic.woff2",
+      "ggsans-medium.woff2",
+      "ggsans-mediumitalic.woff2",
+      "ggsans-mono.woff2",
+      "ggsans-monobold.woff2",
+      "ggsans-regular.woff2",
+      "ggsans-regularitalic.woff2",
+      "ggsans-semibold.woff2",
+      "ggsans-semibolditalic.woff2"
+    ]
+  }
+}
