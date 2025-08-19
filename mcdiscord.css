@@ -1,4 +1,5 @@
 /* @import"https://cdn.jsdelivr.net/gh/voaii/thelounge-theme-ianon/version.css"; */
+/* test */
 :root {
     --document-version: 100;
     --available-version: 100;
@@ -1405,6 +1406,12 @@ html * {
 
 #form {
     background: var(--window-bg-color);
+}
+
+#viewport.userlist-open #chat-container #form {
+    left: 0;
+    width: calc(100% - + 16px + var(--size-userlist-width));
+    padding-right: calc(12px + var(--size-userlist-width));
 }
 
 #chat .names .user {
